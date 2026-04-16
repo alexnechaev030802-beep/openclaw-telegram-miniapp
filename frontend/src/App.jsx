@@ -39,6 +39,8 @@ export default function App() {
           template: templateId,
         })
       )
+    } else {
+      alert("Not in Telegram")
     }
   }
 
@@ -51,6 +53,8 @@ export default function App() {
           action: "start_workspace",
         })
       )
+    } else {
+      alert("Not in Telegram")
     }
   }
 
